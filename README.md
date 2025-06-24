@@ -93,23 +93,6 @@ npm start       # Alias für: ng serve -o
 * Route Guard für ungültige Buch‑IDs.
 * Mini‑Progress‑Bar (gelesene Seiten).
 
-\---|-----------------------------------|----------------|
-\| 1 | **Als Entwickler** möchte ich mit `ng new book-buddy --routing --style=scss` ein neues Angular‑Projekt anlegen und es im Browser starten, **damit** ich eine funktionierende Basis für die weitere Entwicklung habe. | Angular Intro |
-\| 2 | **Als Benutzer** möchte ich, dass alle Buchdaten in einem `BookService` verwaltet werden, der seinen Zustand über ein `signal<Book[]>` bereitstellt, **damit** jede Komponente dieselben, sofort aktualisierten Daten erhält. Der Service soll CRUD‑Methoden (`addBook`, `updateBook`, `deleteBook`, `getBookById`) bereitstellen. | Services, Signals |
-\| 3 | **Als Leser** möchte ich in einem `BookListComponent` eine Tabelle aller Bücher sehen und per Klick auf eine Zeile zur Detailansicht des ausgewählten Buches navigieren (`/books/:id`), **damit** ich schnell Details ansehen kann. | Components, Routing |
-\| 4 | **Als Leser** möchte ich in der `BookDetailComponent` alle Infos zu einem Buch sehen, die via Routen‑Parameter geladen werden, **damit** ich dessen Daten überprüfen oder bearbeiten kann. | Routing, Signals |
-\| 5 | **Als Leser** möchte ich unter `/books/new` ein Formular ausfüllen können, um ein neues Buch hinzuzufügen; das Formular soll Pflichtfelder validieren und mich erst speichern lassen, wenn alles korrekt ist. | Reactive Forms |
-\| 6 | **Als Leser** möchte ich in der Detail­ansicht einen „Bearbeiten“-Button haben, der mich zu `/books/:id/edit` führt, wo dasselbe Formular mit bestehenden Daten vorbefüllt ist, **damit** ich Einträge bequem aktualisieren kann. | Routing, Forms |
-\| 7 | **Als Leser** möchte ich oberhalb der Liste ein Suchfeld haben (Template‑Driven Form), das die Bücherliste live filtert, **damit** ich Titel schneller finde. | Template Forms, Signals |
-\| 8 | **Als Leser** möchte ich in der Toolbar jederzeit eine Badge sehen („Gelesen X / Gesamt Y“), die sich automatisch aktualisiert, **damit** ich meinen Lesefortschritt auf einen Blick habe. | Signals |
-\| 9 | **Als Entwickler** möchte ich zwei Unit‑Tests definieren – einen für `BookService.addBook()` und einen für die Anzeige der Buchanzahl im `BookListComponent` – **damit** ich die Kernlogik automatisch verifizieren kann. | Unit‑Testing |
-
-**Optional‑Erweiterungen**
-
-* Persistenz via `localStorage`.
-* Route Guard für ungültige Buch‑IDs.
-* Mini‑Progress‑Bar (gelesene Seiten).
-
 ---
 
 ## Projektstruktur
