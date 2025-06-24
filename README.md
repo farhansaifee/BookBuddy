@@ -146,6 +146,3 @@ Kommst du nicht weiter?
 
 ---
 
-## Lizenz
-
-Dieses Lernprojekt steht unter der **MIT-Lizenz**. Verwende, verändere und teile es frei.
