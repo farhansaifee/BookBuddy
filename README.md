@@ -137,12 +137,3 @@ npm test
 
 ---
 
-## Hilfestellung
-
-Kommst du nicht weiter?
-
-1. **Fehler beschreiben** (Stack‑Trace, Screenshot).
-2. Stelle deine Frage in diesem Chat – ich unterstütze dich Schritt für Schritt mit Debug‑Tipps und Code‑Snippets.
-
----
-
